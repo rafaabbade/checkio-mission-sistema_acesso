@@ -1,1 +1,14 @@
-{{CODIGO INICIAL}}
+def sistema_acesso(hora, credenciais_validas):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(sistema_acesso(10, True))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert sistema_acesso(10, True) == "Acesso Permitido"
+assert sistema_acesso(10, False) == "Acesso Negado"
+assert sistema_acesso(18, True) == "Acesso Permitido"
+assert sistema_acesso(22, False) == "Acesso Negado"
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
